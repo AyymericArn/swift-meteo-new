@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93E6DA9234655C70046FE63 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E6DA8234655C70046FE63 /* SecondViewController.swift */; };
+		D9971FBD23464C8D003C7178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9971FBC23464C8D003C7178 /* AppDelegate.swift */; };
+		D9971FBF23464C8D003C7178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9971FBE23464C8D003C7178 /* SceneDelegate.swift */; };
+		D9971FC123464C8D003C7178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9971FC023464C8D003C7178 /* ViewController.swift */; };
+		D9971FC423464C8D003C7178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9971FC223464C8D003C7178 /* Main.storyboard */; };
+		D9971FC623464C8D003C7178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9971FC523464C8D003C7178 /* Assets.xcassets */; };
+		D9971FC923464C8D003C7178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9971FC723464C8D003C7178 /* LaunchScreen.storyboard */; };
+		D9971FD423464C8E003C7178 /* villes_temperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9971FD323464C8E003C7178 /* villes_temperatureTests.swift */; };
+		D9971FDF23464C8E003C7178 /* villes_temperatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9971FDE23464C8E003C7178 /* villes_temperatureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9971FD023464C8E003C7178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9971FB123464C8D003C7178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9971FB823464C8D003C7178;
+			remoteInfo = "villes-temperature";
+		};
+		D9971FDB23464C8E003C7178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9971FB123464C8D003C7178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9971FB823464C8D003C7178;
+			remoteInfo = "villes-temperature";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D93E6DA8234655C70046FE63 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D9971FB923464C8D003C7178 /* villes-temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "villes-temperature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9971FBC23464C8D003C7178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9971FBE23464C8D003C7178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9971FC023464C8D003C7178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9971FC323464C8D003C7178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9971FC523464C8D003C7178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9971FC823464C8D003C7178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9971FCA23464C8D003C7178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9971FCF23464C8E003C7178 /* villes-temperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "villes-temperatureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9971FD323464C8E003C7178 /* villes_temperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = villes_temperatureTests.swift; sourceTree = "<group>"; };
+		D9971FD523464C8E003C7178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9971FDA23464C8E003C7178 /* villes-temperatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "villes-temperatureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9971FDE23464C8E003C7178 /* villes_temperatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = villes_temperatureUITests.swift; sourceTree = "<group>"; };
+		D9971FE023464C8E003C7178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9971FB623464C8D003C7178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9971FCC23464C8E003C7178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9971FD723464C8E003C7178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9971FB023464C8D003C7178 = {
+			isa = PBXGroup;
+			children = (
+				D9971FBB23464C8D003C7178 /* villes-temperature */,
+				D9971FD223464C8E003C7178 /* villes-temperatureTests */,
+				D9971FDD23464C8E003C7178 /* villes-temperatureUITests */,
+				D9971FBA23464C8D003C7178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9971FBA23464C8D003C7178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9971FB923464C8D003C7178 /* villes-temperature.app */,
+				D9971FCF23464C8E003C7178 /* villes-temperatureTests.xctest */,
+				D9971FDA23464C8E003C7178 /* villes-temperatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9971FBB23464C8D003C7178 /* villes-temperature */ = {
+			isa = PBXGroup;
+			children = (
+				D9971FBC23464C8D003C7178 /* AppDelegate.swift */,
+				D9971FBE23464C8D003C7178 /* SceneDelegate.swift */,
+				D9971FC023464C8D003C7178 /* ViewController.swift */,
+				D9971FC223464C8D003C7178 /* Main.storyboard */,
+				D9971FC523464C8D003C7178 /* Assets.xcassets */,
+				D9971FC723464C8D003C7178 /* LaunchScreen.storyboard */,
+				D9971FCA23464C8D003C7178 /* Info.plist */,
+				D93E6DA8234655C70046FE63 /* SecondViewController.swift */,
+			);
+			path = "villes-temperature";
+			sourceTree = "<group>";
+		};
+		D9971FD223464C8E003C7178 /* villes-temperatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9971FD323464C8E003C7178 /* villes_temperatureTests.swift */,
+				D9971FD523464C8E003C7178 /* Info.plist */,
+			);
+			path = "villes-temperatureTests";
+			sourceTree = "<group>";
+		};
+		D9971FDD23464C8E003C7178 /* villes-temperatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9971FDE23464C8E003C7178 /* villes_temperatureUITests.swift */,
+				D9971FE023464C8E003C7178 /* Info.plist */,
+			);
+			path = "villes-temperatureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9971FB823464C8D003C7178 /* villes-temperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9971FE323464C8E003C7178 /* Build configuration list for PBXNativeTarget "villes-temperature" */;
+			buildPhases = (
+				D9971FB523464C8D003C7178 /* Sources */,
+				D9971FB623464C8D003C7178 /* Frameworks */,
+				D9971FB723464C8D003C7178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "villes-temperature";
+			productName = "villes-temperature";
+			productReference = D9971FB923464C8D003C7178 /* villes-temperature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9971FCE23464C8E003C7178 /* villes-temperatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9971FE623464C8E003C7178 /* Build configuration list for PBXNativeTarget "villes-temperatureTests" */;
+			buildPhases = (
+				D9971FCB23464C8E003C7178 /* Sources */,
+				D9971FCC23464C8E003C7178 /* Frameworks */,
+				D9971FCD23464C8E003C7178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9971FD123464C8E003C7178 /* PBXTargetDependency */,
+			);
+			name = "villes-temperatureTests";
+			productName = "villes-temperatureTests";
+			productReference = D9971FCF23464C8E003C7178 /* villes-temperatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9971FD923464C8E003C7178 /* villes-temperatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9971FE923464C8E003C7178 /* Build configuration list for PBXNativeTarget "villes-temperatureUITests" */;
+			buildPhases = (
+				D9971FD623464C8E003C7178 /* Sources */,
+				D9971FD723464C8E003C7178 /* Frameworks */,
+				D9971FD823464C8E003C7178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9971FDC23464C8E003C7178 /* PBXTargetDependency */,
+			);
+			name = "villes-temperatureUITests";
+			productName = "villes-temperatureUITests";
+			productReference = D9971FDA23464C8E003C7178 /* villes-temperatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9971FB123464C8D003C7178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Christophe Ondrejec";
+				TargetAttributes = {
+					D9971FB823464C8D003C7178 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D9971FCE23464C8E003C7178 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D9971FB823464C8D003C7178;
+					};
+					D9971FD923464C8E003C7178 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D9971FB823464C8D003C7178;
+					};
+				};
+			};
+			buildConfigurationList = D9971FB423464C8D003C7178 /* Build configuration list for PBXProject "villes-temperature" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9971FB023464C8D003C7178;
+			productRefGroup = D9971FBA23464C8D003C7178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9971FB823464C8D003C7178 /* villes-temperature */,
+				D9971FCE23464C8E003C7178 /* villes-temperatureTests */,
+				D9971FD923464C8E003C7178 /* villes-temperatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9971FB723464C8D003C7178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9971FC923464C8D003C7178 /* LaunchScreen.storyboard in Resources */,
+				D9971FC623464C8D003C7178 /* Assets.xcassets in Resources */,
+				D9971FC423464C8D003C7178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9971FCD23464C8E003C7178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9971FD823464C8E003C7178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9971FB523464C8D003C7178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93E6DA9234655C70046FE63 /* SecondViewController.swift in Sources */,
+				D9971FC123464C8D003C7178 /* ViewController.swift in Sources */,
+				D9971FBD23464C8D003C7178 /* AppDelegate.swift in Sources */,
+				D9971FBF23464C8D003C7178 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9971FCB23464C8E003C7178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9971FD423464C8E003C7178 /* villes_temperatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9971FD623464C8E003C7178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9971FDF23464C8E003C7178 /* villes_temperatureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9971FD123464C8E003C7178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9971FB823464C8D003C7178 /* villes-temperature */;
+			targetProxy = D9971FD023464C8E003C7178 /* PBXContainerItemProxy */;
+		};
+		D9971FDC23464C8E003C7178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9971FB823464C8D003C7178 /* villes-temperature */;
+			targetProxy = D9971FDB23464C8E003C7178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9971FC223464C8D003C7178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9971FC323464C8D003C7178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9971FC723464C8D003C7178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9971FC823464C8D003C7178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9971FE123464C8E003C7178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9971FE223464C8E003C7178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9971FE423464C8E003C7178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "villes-temperature/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quentin.villes-temperature";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9971FE523464C8E003C7178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "villes-temperature/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quentin.villes-temperature";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9971FE723464C8E003C7178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "villes-temperatureTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quentin.villes-temperatureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/villes-temperature.app/villes-temperature";
+			};
+			name = Debug;
+		};
+		D9971FE823464C8E003C7178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "villes-temperatureTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quentin.villes-temperatureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/villes-temperature.app/villes-temperature";
+			};
+			name = Release;
+		};
+		D9971FEA23464C8E003C7178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "villes-temperatureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quentin.villes-temperatureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "villes-temperature";
+			};
+			name = Debug;
+		};
+		D9971FEB23464C8E003C7178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "villes-temperatureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "quentin.villes-temperatureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "villes-temperature";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9971FB423464C8D003C7178 /* Build configuration list for PBXProject "villes-temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9971FE123464C8E003C7178 /* Debug */,
+				D9971FE223464C8E003C7178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9971FE323464C8E003C7178 /* Build configuration list for PBXNativeTarget "villes-temperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9971FE423464C8E003C7178 /* Debug */,
+				D9971FE523464C8E003C7178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9971FE623464C8E003C7178 /* Build configuration list for PBXNativeTarget "villes-temperatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9971FE723464C8E003C7178 /* Debug */,
+				D9971FE823464C8E003C7178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9971FE923464C8E003C7178 /* Build configuration list for PBXNativeTarget "villes-temperatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9971FEA23464C8E003C7178 /* Debug */,
+				D9971FEB23464C8E003C7178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9971FB123464C8D003C7178 /* Project object */;
+}

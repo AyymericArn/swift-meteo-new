@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GZq-Ga-GHS">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="dHt-OI-gbT">
+            <objects>
+                <navigationController id="GZq-Ga-GHS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WW7-gu-hDM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eab-ea-jXA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8B-r0-0c9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="141"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="villes_temperature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC3-Ia-7uZ">
+                                <rect key="frame" x="159.5" y="181" width="56" height="30"/>
+                                <state key="normal" title="Londres"/>
+                                <connections>
+                                    <action selector="showDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8by-UX-iHc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzS-uw-a5R">
+                                <rect key="frame" x="155.5" y="362" width="64" height="30"/>
+                                <state key="normal" title="Francfort"/>
+                                <connections>
+                                    <action selector="showDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KSC-LU-QHm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRT-ue-i6J">
+                                <rect key="frame" x="153.5" y="536" width="68" height="30"/>
+                                <state key="normal" title="Camberra"/>
+                                <connections>
+                                    <action selector="showDetails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ure-rJ-uYO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XRT-ue-i6J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uic-vU-Aa0"/>
+                            <constraint firstItem="XRT-ue-i6J" firstAttribute="top" secondItem="OzS-uw-a5R" secondAttribute="bottom" constant="144" id="jPr-fT-1Cw"/>
+                            <constraint firstItem="OzS-uw-a5R" firstAttribute="top" secondItem="BC3-Ia-7uZ" secondAttribute="bottom" constant="151" id="pCb-vb-bhm"/>
+                            <constraint firstItem="OzS-uw-a5R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rEW-t0-csn"/>
+                            <constraint firstItem="BC3-Ia-7uZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="uSP-ht-Zou"/>
+                            <constraint firstItem="BC3-Ia-7uZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v8h-rL-acc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fCF-BW-WHg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="141"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="HlU-TT-hCz">
+            <objects>
+                <viewController storyboardIdentifier="second" id="XyL-SE-V5C" customClass="SecondViewController" customModule="villes_temperature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="second" id="dEO-Uq-vgt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKc-3d-CJc">
+                                <rect key="frame" x="16" y="158" width="343" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aU5-sV-Bqb">
+                                <rect key="frame" x="117" y="84" width="140" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aU5-sV-Bqb" firstAttribute="centerX" secondItem="JKc-3d-CJc" secondAttribute="centerX" id="6D1-55-41d"/>
+                            <constraint firstItem="aU5-sV-Bqb" firstAttribute="leading" secondItem="V7I-us-rmg" secondAttribute="leading" constant="117" id="JSk-ra-c1p"/>
+                            <constraint firstItem="aU5-sV-Bqb" firstAttribute="top" secondItem="V7I-us-rmg" secondAttribute="top" constant="84" id="MFb-fI-cKo"/>
+                            <constraint firstItem="JKc-3d-CJc" firstAttribute="top" secondItem="aU5-sV-Bqb" secondAttribute="bottom" constant="8" id="Nbp-sN-4AY"/>
+                            <constraint firstItem="JKc-3d-CJc" firstAttribute="top" secondItem="V7I-us-rmg" secondAttribute="top" constant="158" id="aek-8H-8zv"/>
+                            <constraint firstItem="JKc-3d-CJc" firstAttribute="trailing" secondItem="dEO-Uq-vgt" secondAttribute="trailingMargin" id="dwC-1z-f6f"/>
+                            <constraint firstItem="JKc-3d-CJc" firstAttribute="leading" secondItem="dEO-Uq-vgt" secondAttribute="leadingMargin" id="mhH-ym-0Gg"/>
+                            <constraint firstItem="V7I-us-rmg" firstAttribute="bottom" secondItem="JKc-3d-CJc" secondAttribute="bottom" constant="435" id="rLO-oI-9sL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="V7I-us-rmg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LaQ-AY-Wx8"/>
+                    <connections>
+                        <outlet property="CityLabel" destination="aU5-sV-Bqb" id="WoK-QT-gpa"/>
+                        <outlet property="TemperatureLabel" destination="JKc-3d-CJc" id="oGb-1t-I27"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubs-ZW-J2q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="139.880059970015"/>
+        </scene>
+    </scenes>
+</document>
